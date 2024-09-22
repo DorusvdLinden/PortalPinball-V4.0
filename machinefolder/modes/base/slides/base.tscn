@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://uaxfrqj8m4bc"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_0vgiy"]
+[ext_resource type="Texture2D" uid="uid://dr03tlbgh7sgm" path="res://images/mainscreen.jpg" id="2_urv3d"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_o2uwb"]
+
+[node name="base" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_0vgiy")
+
+[node name="background" type="Sprite2D" parent="."]
+position = Vector2(869, 432)
+texture = ExtResource("2_urv3d")
+
+[node name="score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 66.0
+offset_top = 715.0
+offset_right = 237.0
+offset_bottom = 920.0
+theme_override_font_sizes/font_size = 150
+text = "00"
+script = ExtResource("3_o2uwb")
+variable_name = "score"
+comma_separate = true
+min_digits = 2
+initialize_empty = false

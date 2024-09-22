@@ -1,0 +1,13 @@
+#show_version=6 
+- lights:
+    (leds): red #-f1s
+- lights:
+    (leds): orange
+- lights:
+    (leds): yellow
+- lights:
+    (leds): green
+- lights:
+    (leds): blue
+- lights:
+    (leds): purple

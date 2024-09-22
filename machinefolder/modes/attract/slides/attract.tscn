@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://cps0oegj0e7dj"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_bcmkd"]
+[ext_resource type="Texture2D" uid="uid://dr03tlbgh7sgm" path="res://images/mainscreen.jpg" id="2_tu12f"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_bcmkd")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -15.0
+offset_top = -64.0
+offset_right = 1905.0
+offset_bottom = 1136.0
+texture = ExtResource("2_tu12f")
+expand_mode = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 29.0
+offset_right = 873.0
+offset_bottom = 166.0
+theme_override_font_sizes/font_size = 90
+text = "Portal Pinball 4.0"
+horizontal_alignment = 1
+vertical_alignment = 1

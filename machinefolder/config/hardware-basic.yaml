@@ -1,0 +1,62 @@
+#config_version=6
+
+# Hardware Configuration
+
+machine:
+  balls_installed: 4
+  min_balls: 1
+
+virtual_platform_start_active_switches: s_trough1, s_trough2, s_trough3, s_trough4
+
+
+lights:
+  led_t1:
+    number: 0-0-0
+    subtype: led
+    type: grb
+  led_t2:
+    number: 0-0-1
+    subtype: led
+    type: grb
+  led_t3:
+    number: 0-0-2
+    subtype: led
+    type: grb
+
+
+
+# mpf hardware scan:
+# opp:
+# Connected CPUs:
+#  - Port: COM4 at 115200 baud. Chain Serial: 0
+#  -> Board: 0x20 Firmware: 0x2040000
+#  - Port: COM5 at 115200 baud. Chain Serial: 1
+#  -> Board: 0x20 Firmware: 0x2040000
+#  - Port: COM6 at 115200 baud. Chain Serial: 2
+#  -> Board: 0x20 Firmware: 0x1000004
+#  -> Board: 0x21 Firmware: 0x1000004
+#  -> Board: 0x22 Firmware: 0x1000004
+#  -> Board: 0x23 Firmware: 0x1000004
+
+# Incand cards:
+#  - Chain: 2 Board: 0x22 Card: 2 Numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+# Input cards:
+#  - Chain: 0 Board: 0x20 Card: 0 Numbers: [1, 2, 3, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27]
+#  - Chain: 1 Board: 0x20 Card: 0 Numbers: [1, 2, 3, 8, 9, 10, 11, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+#  - Chain: 2 Board: 0x20 Card: 0 Numbers: [0, 1, 2, 3, 8, 9, 10, 11, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+#  - Chain: 2 Board: 0x21 Card: 1 Numbers: [0, 1, 2, 3, 8, 9, 10, 11, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+#  - Chain: 2 Board: 0x22 Card: 2 Numbers: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+#  - Chain: 2 Board: 0x23 Card: 3 Numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+
+# Solenoid cards:
+#  - Chain: 0 Board: 0x20 Card: 0 Numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+#  - Chain: 1 Board: 0x20 Card: 0 Numbers: [0, 1, 2, 3, 4, 5, 6, 7]
+#  - Chain: 2 Board: 0x20 Card: 0 Numbers: [0, 1, 2, 3, 4, 5, 6, 7]
+#  - Chain: 2 Board: 0x21 Card: 1 Numbers: [0, 1, 2, 3, 4, 5, 6, 7]
+
+# LEDs:
+#  - Chain: 0 Board: 0x20 Card: 0
+#  - Chain: 1 Board: 0x20 Card: 0
+
+# ---------

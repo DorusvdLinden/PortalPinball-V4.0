@@ -1,0 +1,153 @@
+#config_version=6
+
+# Hardware Configuration: Switches
+
+
+switches:
+# Autofire 2-0-0 to 2-0-3
+    s_right_sling:
+        number: 2-0-0
+        debounce: quick
+    s_left_sling:
+        number: 2-0-1
+        debounce: quick
+    #name:              plunger --> NO AUTOLAUNCH SWITCH
+    #    number: 2-0-2
+    #    label:
+    #    tags:
+    #name:              trough_eject --> NO AUTOLAUNCH SWITCH
+    #    number: 2-0-3
+    #    label:
+    #    tags:
+# Autofire 2-0-4 to 2-0-7 DO NOT EXIST
+    
+# Autofire 2-0-8 to 2-0-11
+    s_popbumber_1:
+        number: 2-0-8
+    s_popbumber_2:
+        number: 2-0-9
+    s_popbumber_3:
+        number: 2-0-10
+    #name:              drop --> NO AUTOLAUNCH SWITCH 
+    #    number: 2-0-3
+
+# Autofire 2-0-12 to 2-0-15 DO NOT EXIST
+
+
+# Direct Switches Launch Section
+    s_plunger_lane:
+        number: 2-0-16
+    s_start:
+        number: 2-0-17
+        tags: start
+    s_launch:
+        number: 2-0-18
+        tags: launch
+ 
+
+# Lane Switches
+    s_toplane1:
+        number: 2-0-19   
+        type: NO   
+    s_toplane2:
+        number: 2-0-20   
+        type: NO 
+    s_toplane3:
+        number: 2-0-21   
+        type: NO 
+
+    s_bottomlane1:
+        number: 2-0-22   
+        type: NO 
+    s_bottomlane2:
+        number: 2-0-23   
+        type: NO 
+    s_bottomlane3:
+        number: 2-0-24   
+        type: NO 
+    s_bottomlane4:
+        number: 2-0-25  
+        type: NO 
+    s_bottomlane5:
+        number: 2-0-26   
+        type: NO 
+
+
+# Other
+    s_Other01:
+        number: 2-0-27  
+        type: NO  
+    s_Other02:
+        number: 2-0-28  
+        type: NO  
+    s_Other03:
+        number: 2-0-29  
+        type: NO  
+    s_Other04:
+        number: 2-0-30  
+        type: NO  
+    s_Other05:
+        number: 2-0-31  
+        type: NO  
+
+
+# Autofire 2-1-0 to 2-1-3 empty
+# Autofire 2-1-4 to 2-1-7 DO NOT EXIST
+# Autofire 2-1-8 to 2-1-11 empty 
+# Autofire 2-1-12 to 2-1-15 DO NOT EXIST
+
+
+# Direct Switches Trough Section
+    s_trough1:
+        number: 2-1-16
+        type: NC
+    s_trough2:
+        number: 2-1-17
+        type: NC
+    s_trough3:
+        number: 2-1-18
+        type: NC
+    s_trough4:
+        number: 2-1-19
+        type: NC
+    s_trough5:
+        number: 2-1-20
+        type: NC
+    s_trough6:
+        number: 2-1-21
+        type: NC
+    s_trough_jam:  
+        number: 2-1-22
+        type: NC 
+
+
+# Orbit & Ramp switches
+
+# Droptarget Left to Right
+    s_drop1:
+        number: 2-1-23
+    s_drop2:
+        number: 2-1-24
+    s_drop3:
+        number: 2-1-25
+
+# VUK Mid Field
+    s_vukmid:
+        number: 2-1-26
+ 
+# VUK Left Top 
+    s_vuktop:
+        number: 2-1-27
+        
+        
+# right switch bank
+    s_Other06:
+        number: 2-1-28
+    s_Other07:
+        number: 2-1-29
+    s_Other08:
+        number: 2-1-30
+    s_Other09:
+        number: 2-1-31
+
+# more switches available from: 2-3-0 to 2-3-31

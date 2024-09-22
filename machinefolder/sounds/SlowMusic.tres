@@ -1,0 +1,13 @@
+[gd_resource type="AudioStreamRandomizer" load_steps=5 format=3 uid="uid://dmrlnmssdcct0"]
+
+[ext_resource type="AudioStream" uid="uid://dy73qa2rvdfkj" path="res://sounds/music/mp_coop_lobby_2_c1.wav" id="1_iaifm"]
+[ext_resource type="AudioStream" uid="uid://dcqvunjed6jt" path="res://sounds/music/mp_coop_lobby_2_c2.wav" id="2_d17jp"]
+[ext_resource type="AudioStream" uid="uid://bfq4ns5ow2odn" path="res://sounds/music/mp_coop_lobby_2_c4.wav" id="3_rdvyc"]
+[ext_resource type="AudioStream" uid="uid://dc6uksowb2cpn" path="res://sounds/music/mp_coop_lobby_2_c6.wav" id="4_0li2v"]
+
+[resource]
+streams_count = 4
+stream_0/stream = ExtResource("1_iaifm")
+stream_1/stream = ExtResource("2_d17jp")
+stream_2/stream = ExtResource("3_rdvyc")
+stream_3/stream = ExtResource("4_0li2v")

@@ -1,0 +1,42 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+  priority: 100
+    
+
+slide_player:
+  mode_base_started: base    
+        
+        
+variable_player:
+    s_left_sling_active:
+        score: 100
+    s_right_sling_active:
+        score: 100
+    s_popbumber_1_active:
+        score: 100
+    s_popbumber_2_active:
+        score: 100
+    s_popbumber_3_active:        
+        score: 100    
+
+    s_toplane1_active:
+        score: 100
+    s_toplane2_active:
+        score: 100
+    s_toplane3_active:
+        score: 100      
+    s_bottomlane1_active:
+        score: 100
+    s_bottomlane2_active:
+        score: 100
+    s_bottomlane3_active:
+        score: 100
+    s_bottomlane4_active:
+        score: 100
+    s_bottomlane5_active:
+        score: 100
+
+
+    
+        

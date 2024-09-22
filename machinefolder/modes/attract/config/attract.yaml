@@ -1,0 +1,20 @@
+#config_version=6
+
+slide_player:
+  mode_attract_started: attract
+
+
+show_player:
+  mode_attract_started: 
+    laneshow:
+      show_tokens:
+        leds: led_t1, led_t2, led_t3
+
+
+sound_player:
+  mode_attract_started:
+    SlowMusic:
+      bus: music
+      loops: 99
+
+

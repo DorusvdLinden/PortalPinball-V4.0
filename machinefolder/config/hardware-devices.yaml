@@ -1,0 +1,83 @@
+#config_version=6
+
+# Hardware Configuration: devices
+
+
+# drop target bank    
+drop_targets:
+     d_drop_target1:
+         switch: s_drop1
+     d_drop_target2:
+         switch: s_drop2
+     d_drop_target3:
+         switch: s_drop3
+         
+drop_target_banks:
+     db_dropbank:
+         drop_targets: d_drop_target1, d_drop_target2, d_drop_target3
+         reset_coils: c_drop
+        # reset_on_complete: 1s
+
+   
+autofire_coils:
+    ac_popbumber_1:
+        coil: c_popbumper_1
+        switch: s_popbumber_1
+    ac_popbumber_2:
+        coil: c_popbumper_2
+        switch: s_popbumber_2
+    ac_popbumber_3:
+        coil: c_popbumper_3
+        switch: s_popbumber_3
+
+    ac_sling_left:
+        coil: c_sling_left
+        switch: s_left_sling
+    ac_sling_right:
+        coil: c_sling_right
+        switch: s_right_sling            
+    
+    
+    
+ball_devices:
+    bd_trough:
+        ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
+        eject_coil: c_trough_eject
+        tags: trough, home, drain
+        jam_switch: s_trough_jam
+        eject_coil_jam_pulse: 25ms
+        eject_targets: bd_plunger
+        debug: yes
+
+    bd_plunger:
+        ball_switches: s_plunger_lane
+        eject_coil: c_plunger        
+        player_controlled_eject_event: s_launch_active
+        debug: yes
+        mechanical_eject: true
+
+    # bd_vukmid:
+    #     ball_switches: s_vukmid
+    #     eject_coil: c_vukmid
+    #     eject_timeouts: 2s
+    
+    # bd_vuktop:
+    #     ball_switches: s_vuktop
+    #     eject_coil: c_vuktop
+    #     eject_timeouts: 2s
+    
+#flippers:      DIRECT FIRE & HOLD FLIPPERS
+#    left_flipper:
+#        main_coil: c_flipper_left
+#        activation_switch: s_left_flipper
+#        enable_events: machine_reset_phase_3
+#    right_flipper:
+#        main_coil: c_flipper_right
+#        activation_switch: s_right_flipper
+#        enable_events: machine_reset_phase_3    
+    
+        
+playfields:
+    playfield:
+        tags: default
+        default_source_device: bd_plunger  

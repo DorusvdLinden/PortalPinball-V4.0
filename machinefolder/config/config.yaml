@@ -1,0 +1,35 @@
+#config_version=6
+
+
+#  versions
+#  Mission Pinball Framework 0.80
+#  location: cd C:\Users\dorus\OneDrive\Documents\Pinball\PortalPinball-V4.0\machinefolder
+
+
+
+hardware:
+  platform: opp
+  driverboards: gen2
+
+opp:
+  ports: COM4, COM5, COM6
+  chains:
+    0: COM4 # cobra 0-0-x
+    1: COM5 # cobra 1-0-x
+    2: COM6 # PSOC chain 2-0-x to 2-3-x
+
+
+    
+mpf:
+  # report_crashes: never
+    
+config:
+- hardware-basic.yaml
+- hardware-coils.yaml
+- hardware-switches.yaml
+- hardware-devices.yaml
+    
+modes:
+- base
+#- orbit
+#- lanes
