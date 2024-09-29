@@ -1,0 +1,129 @@
+#config_version=6
+
+lights:
+
+  led-launch:
+    number: 0-0-0
+    subtype: led
+    type: grb
+    tags: L1
+  led-save:
+    number: 0-0-1
+    subtype: led
+    type: grb
+  led-lane-b1:
+    number: 0-0-2
+    subtype: led
+    type: grb
+  led-lane-b2:
+    number: 0-0-3
+    subtype: led
+    type: grb
+  led-sling-r:
+    number: 0-0-4
+    subtype: led
+    type: grb
+  led-sling-l:
+    number: 0-0-5
+    subtype: led
+    type: grb
+  led-lane-b3:
+    number: 0-0-6
+    subtype: led
+    type: grb
+  led-lane-b4:
+    number: 0-0-7
+    subtype: led
+    type: grb
+  led-target-r1:
+    number: 0-0-8
+    subtype: led
+    type: grb
+  led-target-r2:
+    number: 0-0-9
+    subtype: led
+    type: grb
+  led-orbit-r:
+    number: 0-0-10
+    subtype: led
+    type: grb
+  led-ramp-r:
+    number: 0-0-11
+    subtype: led
+    type: grb
+  led-target-m1:
+    number: 0-0-12
+    subtype: led
+    type: grb
+  led-portal-r:
+    number: 0-0-13
+    subtype: led
+    type: grb
+  led-target-m2:
+    number: 0-0-14
+    subtype: led
+    type: grb
+  led-bumper-1:
+    number: 0-0-15
+    subtype: led
+    type: grb
+  led-bumper-2:
+    number: 0-0-16
+    subtype: led
+    type: grb
+  led-bumper-3:
+    number: 0-0-17
+    subtype: led
+    type: grb
+  led-toplane1:
+    number: 0-0-18
+    subtype: led
+    type: grb
+  led-toplane2:
+    number: 0-0-19
+    subtype: led
+    type: grb
+  led-toplane3:
+    number: 0-0-20
+    subtype: led
+    type: grb
+  led-orbit-t:
+    number: 0-0-21
+    subtype: led
+    type: grb
+  led-target-e1:
+    number: 0-0-22
+    subtype: led
+    type: grb
+  led-target-e2:
+    number: 0-0-23
+    subtype: led
+    type: grb
+  led-aerial:
+    number: 0-0-24
+    subtype: led
+    type: grb
+  led-target-m3:
+    number: 0-0-25
+    subtype: led
+    type: grb
+  led-portal-m:
+    number: 0-0-26
+    subtype: led
+    type: grb
+  led-target-m4:
+    number: 0-0-27
+    subtype: led
+    type: grb
+  led-ramp-l:
+    number: 0-0-28
+    subtype: led
+    type: grb
+  led-orbit-l:
+    number: 0-0-29
+    subtype: led
+    type: grb
+  led-button:
+    number: 0-0-30
+    subtype: led
+    type: grb

@@ -9,22 +9,6 @@ machine:
 virtual_platform_start_active_switches: s_trough1, s_trough2, s_trough3, s_trough4
 
 
-lights:
-  led_t1:
-    number: 0-0-0
-    subtype: led
-    type: grb
-  led_t2:
-    number: 0-0-1
-    subtype: led
-    type: grb
-  led_t3:
-    number: 0-0-2
-    subtype: led
-    type: grb
-
-
-
 # mpf hardware scan:
 # opp:
 # Connected CPUs:

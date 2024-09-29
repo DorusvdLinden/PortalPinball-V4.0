@@ -25,6 +25,7 @@ mpf:
     
 config:
 - hardware-basic.yaml
+- hardware-leds.yaml
 - hardware-coils.yaml
 - hardware-switches.yaml
 - hardware-devices.yaml
