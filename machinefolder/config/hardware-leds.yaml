@@ -6,7 +6,7 @@ lights:
     number: 0-0-0
     subtype: led
     type: grb
-    tags: ledtag
+    tags: ledtag3
   led-save:
     number: 0-0-1
     subtype: led
