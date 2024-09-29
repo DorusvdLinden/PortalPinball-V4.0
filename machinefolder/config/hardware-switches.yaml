@@ -74,19 +74,19 @@ switches:
 
 
 # Other
-    s_Other01:
+    s_orbit-r:
         number: 2-0-27  
         type: NO  
-    s_Other02:
+    s_orbit-l:
         number: 2-0-28  
         type: NO  
-    s_Other03:
+    s-target-e1:
         number: 2-0-29  
         type: NO  
-    s_Other04:
+    s-target-e2:
         number: 2-0-30  
         type: NO  
-    s_Other05:
+    s-button:
         number: 2-0-31  
         type: NO  
 
@@ -141,13 +141,47 @@ switches:
         
         
 # right switch bank
-    s_Other06:
+    s-orbit-top:
         number: 2-1-28
-    s_Other07:
+
+# ball devices
+    s-portal-r:
         number: 2-1-29
-    s_Other08:
+    s-dropper:
         number: 2-1-30
-    s_Other09:
+    s-exit-success:
         number: 2-1-31
 
 # more switches available from: 2-3-0 to 2-3-31
+    s-target-r1:
+        number: 2-3-0
+    s-target-r2:
+        number: 2-3-1
+    s-target-m1:
+        number: 2-3-2
+    s-target-m2:
+        number: 2-3-3
+    s-target-m3:
+        number: 2-3-4
+    s-target-m4:
+        number: 2-3-5
+    s-target-l1:
+        number: 2-3-6
+    
+    s-ramp-r1:
+        number: 2-3-7
+    s-ramp-l1:
+        number: 2-3-8
+    s-ramp-r2:
+        number: 2-3-9
+    s-ramp-l2:
+        number: 2-3-10
+
+
+    s-aerial:
+        number: 2-3-11
+    s-portal-m:
+        number: 2-3-12
+    s-insinerator:
+        number: 2-3-13
+

@@ -11,6 +11,7 @@ lights:
     number: 0-0-1
     subtype: led
     type: grb
+
   led-lane-b1:
     number: 0-0-2
     subtype: led
@@ -19,6 +20,7 @@ lights:
     number: 0-0-3
     subtype: led
     type: grb
+
   led-sling-r:
     number: 0-0-4
     subtype: led
@@ -27,6 +29,7 @@ lights:
     number: 0-0-5
     subtype: led
     type: grb
+
   led-lane-b3:
     number: 0-0-6
     subtype: led
@@ -35,6 +38,7 @@ lights:
     number: 0-0-7
     subtype: led
     type: grb
+
   led-target-r1:
     number: 0-0-8
     subtype: led
@@ -43,6 +47,7 @@ lights:
     number: 0-0-9
     subtype: led
     type: grb
+
   led-orbit-r:
     number: 0-0-10
     subtype: led
@@ -51,18 +56,22 @@ lights:
     number: 0-0-11
     subtype: led
     type: grb
+
   led-target-m1:
     number: 0-0-12
     subtype: led
     type: grb
+
   led-portal-r:
     number: 0-0-13
     subtype: led
     type: grb
+
   led-target-m2:
     number: 0-0-14
     subtype: led
     type: grb
+
   led-bumper-1:
     number: 0-0-15
     subtype: led
@@ -75,6 +84,7 @@ lights:
     number: 0-0-17
     subtype: led
     type: grb
+
   led-toplane1:
     number: 0-0-18
     subtype: led
@@ -87,10 +97,12 @@ lights:
     number: 0-0-20
     subtype: led
     type: grb
+
   led-orbit-t:
     number: 0-0-21
     subtype: led
     type: grb
+
   led-target-e1:
     number: 0-0-22
     subtype: led
@@ -99,14 +111,17 @@ lights:
     number: 0-0-23
     subtype: led
     type: grb
+
   led-aerial:
     number: 0-0-24
     subtype: led
     type: grb
+
   led-target-m3:
     number: 0-0-25
     subtype: led
     type: grb
+
   led-portal-m:
     number: 0-0-26
     subtype: led
@@ -125,5 +140,42 @@ lights:
     type: grb
   led-button:
     number: 0-0-30
+    subtype: led
+    type: grb
+  led-target-l1:
+    number: 0-0-31
+    subtype: led
+    type: grb
+  led-insinerator:
+    number: 0-0-32
+    subtype: led
+    type: grb
+  led-dropper:
+    number: 0-0-33
+    subtype: led
+    type: grb
+    
+  led-exit-success:
+    number: 0-0-34
+    subtype: led
+    type: grb
+  led-exit-open-1:
+    number: 0-0-35
+    subtype: led
+    type: grb
+  led-exit-open-2:
+    number: 0-0-36
+    subtype: led
+    type: grb
+  led-exit-open-3:
+    number: 0-0-37
+    subtype: led
+    type: grb
+  led-exit-open-4:
+    number: 0-0-38
+    subtype: led
+    type: grb
+  led-exit-open-5:
+    number: 0-0-39
     subtype: led
     type: grb

@@ -8,8 +8,7 @@ show_player:
   mode_attract_started: 
     laneshow:
       show_tokens:
-        leds: led-bumper-1, led-bumper-2, led-bumper-3
-
+        leds: led-launch, led-save, led-lane-b1
 
 sound_player:
   mode_attract_started:
