@@ -74,10 +74,10 @@ switches:
 
 
 # Other
-    s_Other01:
+    s_orbit-r:
         number: 2-0-27  
         type: NO  
-    s_Other02:
+    s_orbit-l:
         number: 2-0-28  
         type: NO  
     s_Other03:
