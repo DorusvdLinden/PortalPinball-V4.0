@@ -121,7 +121,7 @@ lights:
     number: 0-0-25
     subtype: led
     type: grb
-    
+
   led-portal-m:
     number: 0-0-26
     subtype: led
@@ -148,5 +148,34 @@ lights:
     type: grb
   led-insinerator:
     number: 0-0-32
+    subtype: led
+    type: grb
+  led-dropper:
+    number: 0-0-33
+    subtype: led
+    type: grb
+    
+  led-exit-success:
+    number: 0-0-34
+    subtype: led
+    type: grb
+  led-exit-open-1:
+    number: 0-0-35
+    subtype: led
+    type: grb
+  led-exit-open-2:
+    number: 0-0-36
+    subtype: led
+    type: grb
+  led-exit-open-3:
+    number: 0-0-37
+    subtype: led
+    type: grb
+  led-exit-open-4:
+    number: 0-0-38
+    subtype: led
+    type: grb
+  led-exit-open-5:
+    number: 0-0-39
     subtype: led
     type: grb
