@@ -151,3 +151,18 @@ switches:
         number: 2-1-31
 
 # more switches available from: 2-3-0 to 2-3-31
+    s-target-r1:
+        number: 2-3-0
+    s-target-r2:
+        number: 2-3-1
+    s-target-m1:
+        number: 2-3-2
+    s-target-m2:
+        number: 2-3-3
+    s-target-m3:
+        number: 2-3-4
+    s-target-m4:
+        number: 2-3-5
+    s-target-l1:
+        number: 2-3-6
+    
