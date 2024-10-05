@@ -1,7 +1,28 @@
 events:
   game_ended: 1
-  game_started: 23
+  game_started: 24
 missing_switches:
+  s-aerial: 1
+  s-button: 1
+  s-dropper: 1
+  s-exit-success: 1
+  s-insinerator: 1
+  s-orbit-top: 1
+  s-portal-m: 1
+  s-portal-r: 1
+  s-ramp-l1: 1
+  s-ramp-l2: 1
+  s-ramp-r1: 1
+  s-ramp-r2: 1
+  s-target-e1: 1
+  s-target-e2: 1
+  s-target-l1: 1
+  s-target-m1: 1
+  s-target-m2: 1
+  s-target-m3: 1
+  s-target-m4: 1
+  s-target-r1: 1
+  s-target-r2: 1
   s_Other01: 23
   s_Other02: 23
   s_Other03: 23
@@ -11,32 +32,32 @@ missing_switches:
   s_Other07: 23
   s_Other08: 23
   s_Other09: 23
-  s_bottomlane1: 23
-  s_bottomlane2: 23
-  s_bottomlane3: 23
-  s_bottomlane4: 23
-  s_bottomlane5: 23
-  s_drop1: 23
-  s_drop2: 23
-  s_drop3: 23
-  s_launch: 23
-  s_left_sling: 23
-  s_popbumber_1: 23
-  s_popbumber_2: 23
-  s_popbumber_3: 23
-  s_right_sling: 23
-  s_start: 6
-  s_toplane2: 23
-  s_toplane3: 23
-  s_trough1: 5
-  s_trough2: 23
-  s_trough3: 23
-  s_trough4: 23
-  s_trough5: 23
-  s_trough6: 23
-  s_trough_jam: 23
-  s_vukmid: 23
-  s_vuktop: 23
+  s_bottomlane1: 24
+  s_bottomlane2: 24
+  s_bottomlane3: 24
+  s_bottomlane4: 24
+  s_bottomlane5: 24
+  s_drop1: 24
+  s_drop2: 24
+  s_drop3: 24
+  s_launch: 24
+  s_left_sling: 24
+  s_orbit-l: 1
+  s_orbit-r: 1
+  s_popbumber_1: 24
+  s_popbumber_2: 24
+  s_popbumber_3: 24
+  s_right_sling: 24
+  s_toplane2: 24
+  s_toplane3: 24
+  s_trough2: 24
+  s_trough3: 24
+  s_trough4: 24
+  s_trough5: 24
+  s_trough6: 24
+  s_trough_jam: 24
+  s_vukmid: 24
+  s_vuktop: 24
 player:
   score:
     average: 0
@@ -44,6 +65,27 @@ player:
     - 0
     total: 1
 switches:
+  s-aerial: 0
+  s-button: 0
+  s-dropper: 0
+  s-exit-success: 0
+  s-insinerator: 0
+  s-orbit-top: 0
+  s-portal-m: 0
+  s-portal-r: 0
+  s-ramp-l1: 0
+  s-ramp-l2: 0
+  s-ramp-r1: 0
+  s-ramp-r2: 0
+  s-target-e1: 0
+  s-target-e2: 0
+  s-target-l1: 0
+  s-target-m1: 0
+  s-target-m2: 0
+  s-target-m3: 0
+  s-target-m4: 0
+  s-target-r1: 0
+  s-target-r2: 0
   s_Other01: 0
   s_Other02: 0
   s_Other03: 0
@@ -63,16 +105,18 @@ switches:
   s_drop3: 0
   s_launch: 0
   s_left_sling: 0
-  s_plunger_lane: 44
+  s_orbit-l: 0
+  s_orbit-r: 0
+  s_plunger_lane: 47
   s_popbumber_1: 0
   s_popbumber_2: 0
   s_popbumber_3: 0
   s_right_sling: 0
-  s_start: 47
-  s_toplane1: 587
+  s_start: 49
+  s_toplane1: 611
   s_toplane2: 0
   s_toplane3: 0
-  s_trough1: 33
+  s_trough1: 35
   s_trough2: 0
   s_trough3: 0
   s_trough4: 0
